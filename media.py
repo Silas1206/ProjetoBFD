@@ -4,5 +4,12 @@ n2=float(input("diga sua segunda nota: "))
 
 media=(n1 + n2)/2
 
-print(f"aluno {nome} e sua média é {media}!")
+if media>=7:
+    print(f"aluno {nome}, sua média é {media} e você foi Aprovado!")
+elif media>=4:
+    print(f"aluno {nome}, sua média é {media} e você está de Recuperação!")
+else:
+    print(f"aluno {nome}, sua média é {media} e você está de Reprovado!")
+
+
 
